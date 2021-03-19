@@ -300,6 +300,17 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   }
 })()}
 },{"./par-cap.vue":10,"vue":7,"vue-hot-reload-api":5}],4:[function(require,module,exports){
+//npm install --global browserify
+//npm init --force
+//npm install jquery
+
+//Команда компиляции:
+//browserify main.js --outfile bundle.js
+
+//Автосборка:
+//npm install --global watchify
+//watchify main.js --outfile bundle.js --verbose
+
 var Vue = require("vue")
 var App = require("./app.vue")
 
